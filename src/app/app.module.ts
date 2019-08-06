@@ -21,6 +21,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { LocalNotifications } from '@ionic-native/local-notifications';
 import { EmailComposer } from '@ionic-native/email-composer';
 import { CallNumber } from '@ionic-native/call-number/ngx';
+import { Network } from '@ionic-native/network';
 import { Camera } from '@ionic-native/camera';
 import { DishProvider } from '../providers/dish/dish';
 import { LeaderProvider } from '../providers/leader/leader';
@@ -71,6 +72,7 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     EmailComposer,
     LocalNotifications,
     CallNumber,
+    Network,
     Camera,
     LeaderProvider,
     PromotionProvider,
